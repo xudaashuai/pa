@@ -1,0 +1,18 @@
+{
+  "name": "pa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": " babel src --out-dir dist",
+    "test": "mocha "
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "mochawesome": "^3.0.2"
+  }
+}
